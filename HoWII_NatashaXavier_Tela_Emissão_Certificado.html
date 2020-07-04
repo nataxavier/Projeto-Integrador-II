@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Emissão de Certificado de Treinamento</title>
+</head>
+
+<body>
+<div id="interface">
+
+	<img src="C:\Users\Administrador\Desktop\UNIVALI\AULAS\HoW II/Logo_Geo_Página.png" width="1200" height="150"/>
+	
+<hgroup>
+	<nav id="menu">
+	<h3>
+		<a href="index.html">Treinamento</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.html">Ativos</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.html">Assistência</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.html">Gerência</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.html">Ferramentas</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.html">Plugins</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.html">Administração</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.html">Configurar</a>
+	</h3>
+	</nav>
+<hgroup>
+
+<header id="cabecalho">
+	<hgroup>
+	<h2>Emissão de Certificado de Treinamento de Capacitação em SIG</h2>
+	</hgroup>
+</header>
+	
+<form method="post" id="emissao" action="emissao.php">
+
+	<fieldset id="cpf"><legend>CPF</legend>
+	<input type="text" name="tCPF" id="cCPF" size="60" maxlength="14" placeholder="Digite somente os números"/>
+	</fieldset>
+	
+	<fieldset id="nome"><legend>NOME</legend>
+		<input type="text" name="tNome" id="cNome" size="180" maxlength="50" placeholder="Seu nome será preenchido automaticamente após informar o CPF"/>
+		<p> Caso seu nome não esteja correto entre em contato com o Setor de Suporte Técnico.</p>
+	</fieldset>
+	
+	<fieldset id="treinamento"><legend>TREINAMENTO</legend>
+	<input type="text" name="tTrein" id="cTrein" size="180" maxlength="100" placeholder="Selecione o(s) Treinamento(s)"/>
+	</fieldset>
+	
+	<fieldset id="selecao"><legend>TREINAMENTO(S) SELECIONADO(S) PARA EMISSÃO DO CERTIFICADO DE PARTICIPAÇÃO</legend>
+		<p>Aqui deverá aparecer o(s) treinamento(s) selecionados</p>
+		<p></p>
+	</fieldset>
+	<p></p>
+
+	<input type="button" value="Emitir Certificado"/>
+	
+</form>
+</div>
+</body>
+</html>
