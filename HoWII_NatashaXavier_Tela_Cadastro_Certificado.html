@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Cadastro de Certificado de Treinamento</title>
+</head>
+
+<body>
+<div id="interface">
+
+	<img src="C:\Users\Administrador\Desktop\UNIVALI\AULAS\HoW II/Logo_Geo_Página.png" width="1200" height="150"/>
+	
+<hgroup>
+	<nav id="menu">
+	<h3>
+		<a href="index.html">Treinamento</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.html">Ativos</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.html">Assistência</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.html">Gerência</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.html">Ferramentas</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.html">Plugins</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.html">Administração</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.html">Configurar</a>
+	</h3>
+	</nav>
+<hgroup>
+
+<header id="cabecalho">
+	<hgroup>
+	<h2>Cadastro de Certificados de Treinamento de Capacitação em SIG</h2>
+	</hgroup>
+</header>
+
+<form method="post" id="cadastro" action="cadastro.php">
+
+	<fieldset id="prefeitura"><legend>PREFEITURA</legend>
+	<input type="text" name="tPref" id="cPref" size="180" maxlength="50"/>
+	</fieldset>
+	
+	<fieldset id="treinamento"><legend>TREINAMENTO</legend>
+	<input type="text" name="tTrein" id="cTrein" size="180" maxlength="100"/>
+	</fieldset>
+	
+	<fieldset id="periodo"><legend>PERÍODO</legend>
+	<p>Data de início:<input type="date" name="tInicio" id="cInicio"/></p>
+	<p>Data de fim:<input type="date" name="tFim" id="cFim"/></p>
+	</fieldset>
+	
+	<fieldset id="carga horaria"><legend>CARGA HORÁRIA</legend>
+	<input type="text" name="tHora" id="cHora" size="60" maxlength="10"/>
+	</fieldset>
+	
+	<fieldset id="nome"><legend>NOME</legend>
+		<input type="text" name="tNome" id="cNome" size="180" maxlength="50"/>
+	</fieldset>
+	
+	<fieldset id="cpf"><legend>CPF</legend>
+	<input type="text" name="tCPF" id="cCPF" size="60" maxlength="14"/>
+	</fieldset>
+	<p></p>
+
+	<input type="button" value="Incluir"/>
+	<p></p>
+	
+
+	<fieldset id="participantes"><legend>RELAÇÃO DE PARTICIPANTES</legend>
+		<p>Aqui deverá aparecer o nome dos participantes que foram incluídos no banco de dados</p>
+		<p></p>
+	</fieldset>
+	<p></p>
+
+	<input type="button" value="Cadastrar Certificado"/>
+	<p></p>
+	
+	
+</form>
+	
+
+</div>
+</body>
+</html>
